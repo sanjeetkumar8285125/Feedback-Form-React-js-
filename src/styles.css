@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .App {
+  min-width: 720px;
+  width: 100vw;
+  height: auto;
+  background: #0a03;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+} */
+.Header {
+  height: auto;
+  background: rgb(235, 134, 134);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 43, 70) 12%,
+    rgb(17, 165, 61) 50%,
+    rgb(95, 76, 76) 90%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px -2px 2px #0007;
+}
+.Header h2 {
+  font-size: 1.5rem;
+  padding: 20px 0px;
+  color: white;
+  text-align: center;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+  overflow: hidden;
+  text-align: left;
+}
+.login {
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: bottom;
+  float: left;
+  width: 50%;
+}
+.login .loginh1{
+  margin-bottom: 20px;
+}
+.loginpage {
+  margin: 80px 0 !important;
+  background: linear-gradient(30deg,#ec9c33,#aaa,#5fe086);
+  padding:30px !important;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+.loginsub {
+  width: 100%;
+  margin-top: 10px;
+}
+ .regtxt {
+  text-align: right;
+  margin: 15px 0;
+  padding-top: 8px;
+}
+
+.regtxt a:hover{
+  color: #fff !important;
+} 
+
+
+.ShowInput{
+  margin-left: 60%;
+  margin-top: 90px;
+}
+.DataCard {
+  background: linear-gradient(30deg,#f16690,#aaa,#ac6884);
+  border-radius: 20px;
+  border: 2px solid #fff;
+  min-width: 500px;
+  max-width: 700px;
+  width: 50%;
+  min-height: 100px;
+   margin: 0 auto 0; 
+  /* background: white; */
+  overflow: hidden;
+  margin: 0px;
+  margin-bottom: 10px; 
+}
+.DataCard kbd {
+  display: block;
+  padding: 5px;
+  background: rgba(166, 98, 255, 0.651);
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+} 
+.DataCard p {
+  padding: 10px 3px;
+  text-align: center;
+}
